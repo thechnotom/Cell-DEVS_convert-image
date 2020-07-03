@@ -1,0 +1,44 @@
+{
+    "tolerance" : 50,
+    "files": {
+        "input" : "input/room.bmp",
+        "output" : "output/2D_model.txt"
+    },
+    "colours" : {
+        "255,255,255" : {
+            "concentration" : 500,
+            "type" : -100,
+            "counter" : -1
+        },
+        "0,255,255" : {
+            "concentration" : 500,
+            "type" : -200,
+            "counter" : -1
+        },
+        "0,0,0" : {
+            "concentration" : 0,
+            "type" : -300,
+            "counter" : -1
+        },
+        "0,255,0" : {
+            "concentration" : 500,
+            "type" : -400,
+            "counter" : -1
+        },
+        "255,255,0" : {
+            "concentration" : 300,
+            "type" : -500,
+            "counter" : -1
+        },
+        "0,0,255" : {
+            "concentration" : 300,
+            "type" : -600,
+            "counter" : -1
+        },
+        "255,0,0" : {
+            "concentration" : 500,
+            "type" : -700,
+            "counter" : -1
+        }
+    }
+}
